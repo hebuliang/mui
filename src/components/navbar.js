@@ -11,14 +11,16 @@ export default class Navbar extends Component {
 
     render() {
         return(
-            <LeftNav>
-                <div>Item 1</div>
-                <Divider />
-                <div>Item 2</div>
-                <Divider />
-                <div>Item 3</div>
-                <Divider />
-            </LeftNav>
+            <div className={Styles.navigator}>
+                <LeftNav className={Styles.leftNav}>
+                    <div>Item 1</div>
+                    <Divider />
+                    <div>Item 2</div>
+                    <Divider />
+                    <div>Item 3</div>
+                    <Divider />
+                </LeftNav>
+            </div>
         )
     }
 }

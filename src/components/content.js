@@ -9,7 +9,7 @@ export default class Content extends Component {
 
     render() {
         return(
-            <div>Hell Material-UI!</div>
+            <div className={Styles.content}>Hell Material-UI!</div>
         )
     }
 }
